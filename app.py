@@ -1,4 +1,4 @@
-import pandas as pd
+import pandas as pd 
 import plotly.express as px
 import streamlit as st
 
@@ -21,4 +21,3 @@ if scatter_button:
     fig = px.scatter(car_data, x="odometer", y ="price", title="Odómetro vs Precio")
     st.plotly_chart(fig, use_container_width=True)
 
-streamlit run app.py
